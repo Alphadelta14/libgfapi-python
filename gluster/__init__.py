@@ -42,6 +42,6 @@ class PkgInfo(object):
 
 
 # Change the Package version here
-_pkginfo = PkgInfo('0.0.1', '0', 'python-libgfapi', False)
+_pkginfo = PkgInfo('10.0.1', '1', 'python-libgfapi', True)
 __version__ = _pkginfo.pretty_version
 __canonical_version__ = _pkginfo.canonical_version
